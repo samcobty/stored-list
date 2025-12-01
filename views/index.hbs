@@ -1,7 +1,10 @@
-<h1>Express</h1>
+<h1>(Some of) My Favorite Albums &#128077</h1>
+
+<h2>Click on titles to open in Spotify!</h2>
+
 <ul>
-{{#each list}}
-<li>{{this}}</li>
+{{#each albums}}
+<li>{{this.artist}} - {{{this.title}}}</li>
 {{/each}}
 </ul>
 

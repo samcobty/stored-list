@@ -1,10 +1,19 @@
-<h1>(Some of) My Favorite Albums &#128077</h1>
+<h1>Cool Albums &#128077</h1>
 
-<h2>Click on titles to open in Spotify!</h2>
+<!--<h2>Click on titles to open in Spotify!</h2>-->
+<h2>Add your favorite album below</h2>
 
-<ul>
-{{#each albums}}
+<div id="form">
+    <input id="text1" placeholder="Enter album title" />
+    <input id="text2" placeholder="Enter artist name" />
+    <button id="add-album-button">Add</button>
+</div>
+
+<p>Made a mistake? Click on text to edit, or click on the X to delete</p>
+
+<ul id="list">
+<!--{{#each albums}}
 <li>{{this.artist}} - {{{this.title}}}</li>
-{{/each}}
+{{/each}}-->
 </ul>
 
